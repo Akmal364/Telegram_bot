@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Form</title>
+    <link rel="shortcut icon" href="./icons/Telegram_2019_Logo.svg.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" id="contactForm">
+            <h2>Contact Us</h2>
+
+            <div class="input-group">
+                <input id="first" name="firstName" type="text" required>
+                <label for="first">First Name</label>
+            </div>
+
+            <div class="input-group">
+                <input id="last" name="lastName" type="text" required>
+                <label for="last">Last Name</label>
+            </div>
+
+            <div class="input-group">
+                <input id="phone" name="phone" type="tel" required>
+                <label for="phone">Phone Number</label>
+            </div>
+
+            <div class="input-group">
+                <input id="email" name="email" type="email" required>
+                <label for="email">Email</label>
+            </div>
+
+            <div class="input-group">
+                <textarea id="message" name="message" required></textarea>
+                <label for="message">Message</label>
+            </div>
+
+            <button id="sendBtn" type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
